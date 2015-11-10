@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogocuentas:Catalogo Anio="2018" Certificado="" Mes="03" RFC="AAA010101AAA" Version="1.1" noCertificado="20001000000200001428" xmlns:catalogocuentas="www.sat.gob.mx/esquemas/ContabilidadE/1_1/CatalogoCuentas" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="www.sat.gob.mx/esquemas/ContabilidadE/1_1/CatalogoCuentas http://www.sat.gob.mx/esquemas/ContabilidadE/1_1/CatalogoCuentas/CatalogoCuentas_1_1.xsd">
+  <catalogocuentas:Ctas CodAgrup="102" Desc="Banco Nacional" Natur="A" Nivel="1" NumCta="12345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901"/>
+  <catalogocuentas:Ctas CodAgrup="101.01" Desc="Caja Chica" Natur="A" Nivel="2" NumCta="1180-4000" SubCtaDe="72800"/>
+  <catalogocuentas:Ctas CodAgrup="113.01" Desc="IVA a favor" Natur="A" Nivel="2" NumCta="Ñ&amp;L8371" SubCtaDe="36712"/>
+  <catalogocuentas:Ctas CodAgrup="201" Desc="Proveedores" Natur="D" Nivel="1" NumCta="8932812"/>
+  <catalogocuentas:Ctas CodAgrup="203.01" Desc="Renta anticipada servicio" Natur="D" Nivel="2" NumCta="67801" SubCtaDe="67800"/>
+  <catalogocuentas:Ctas CodAgrup="301.02" Desc="Capital Variable" Natur="A" Nivel="2" NumCta="8211123" SubCtaDe="8211100"/>
+  <catalogocuentas:Ctas CodAgrup="402.03" Desc="Descuentos de servicios básicos" Natur="A" Nivel="2" NumCta="72637" SubCtaDe="72600"/>
+  <catalogocuentas:Ctas CodAgrup="502" Desc="Compras" Natur="D" Nivel="1" NumCta="663-200"/>
+  <catalogocuentas:Ctas CodAgrup="602.32" Desc="Servicios Administrativos" Natur="D" Nivel="2" NumCta="663-201" SubCtaDe="907600"/>
+  <catalogocuentas:Ctas CodAgrup="613.05" Desc="Depreciación equipo de cómputo" Natur="D" Nivel="2" NumCta="663-202" SubCtaDe="142900"/>
+  <catalogocuentas:Ctas CodAgrup="702" Desc="Productos Financieros" Natur="A" Nivel="1" NumCta="663-203"/>
+  <catalogocuentas:Ctas CodAgrup="704.02" Desc="Ganancia venta de equipo de cómputo" Natur="A" Nivel="2" NumCta="663-204" SubCtaDe="5628100"/>
+  <catalogocuentas:Ctas CodAgrup="814.01" Desc="Vehículos a consignación" Natur="A" Nivel="2" NumCta="663-205" SubCtaDe="7629100"/>
+  <catalogocuentas:Ctas CodAgrup="109.01" Desc="   Seguros y fianzas pagados por anticipado nacional" Natur="A" Nivel="2" NumCta="663-206" SubCtaDe="Ñ-001"/>
+  <catalogocuentas:Ctas CodAgrup="109.02" Desc="   Seguros y fianzas pagados por anticipado extranjero" Natur="A" Nivel="2" NumCta="663-207" SubCtaDe="Ñ-002"/>
+  <catalogocuentas:Ctas CodAgrup="109.03" Desc="   Seguros y fianzas pagados por anticipado nacional parte relacionada" Natur="A" Nivel="2" NumCta="663-208" SubCtaDe="Ñ-003"/>
+  <catalogocuentas:Ctas CodAgrup="109.04" Desc="   Seguros y fianzas pagados por anticipado extranjero parte relacionada" Natur="D" Nivel="2" NumCta="663-209" SubCtaDe="Ñ-004"/>
+  <catalogocuentas:Ctas CodAgrup="109.05" Desc="   Rentas pagados por anticipado nacional" Natur="D" Nivel="2" NumCta="663-210" SubCtaDe="Ñ-005"/>
+  <catalogocuentas:Ctas CodAgrup="109.06" Desc="   Rentas pagados por anticipado extranjero" Natur="A" Nivel="2" NumCta="663-211" SubCtaDe="Ñ-006"/>
+  <catalogocuentas:Ctas CodAgrup="109.07" Desc="   Rentas pagados por anticipado nacional parte relacionada" Natur="A" Nivel="2" NumCta="663-212" SubCtaDe="Ñ-007"/>
+</catalogocuentas:Catalogo>

@@ -1,0 +1,50 @@
+# configuracion de pruebas Contabilidad
+
+production:
+     sauce: false
+     base_url: https://contabilidad.diverza.com
+     usernameCLICE: 
+     passwordCLICE: 
+     usernameCONCE: 
+     passwordCONCE: 
+     usernameFINCE: 
+     passwordFINCE:
+     usernameCLICEPR: 
+     passwordCLICEPR: 
+     usernameCONCEPR: 
+     passwordCONCEPR: 
+     usernameFINCEPR: 
+     passwordFINCEPR:  
+ 
+development:
+     sauce: false
+     base_url: 
+     usernameCLICE: 
+     passwordCLICE: 
+     usernameCONCE: 
+     passwordCONCE: 
+     usernameFINCE: 
+     passwordFINCE:
+     usernameCLICEPR: 
+     passwordCLICEPR: 
+     usernameCONCEPR: 
+     passwordCONCEPR: 
+     usernameFINCEPR: 
+     passwordFINCEPR: 
+ 
+test:
+     sauce: false
+     base_url: "http://localhost:8080"
+     usernameCLICE: "gutierrez"
+     passwordCLICE: "admin"
+     usernameCONCE: "hernandez"
+     passwordCONCE: "admin"
+     usernameFINCE: "hernandez1"
+     passwordFINCE: "admin"
+     usernameCLICEPR: "squallmagc"
+     passwordCLICEPR: "admin"
+     usernameCONCEPR: "squallmagc1"
+     passwordCONCEPR: "admin"
+     usernameFINCEPR: "squallmagc2"
+     passwordFINCEPR: "admin"
+ 

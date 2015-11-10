@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?> <!-- Document created with online XML Editor http://xmlgrid.net 2015/06/02 11:8:43  -->
+<DD:DoctoDigital xmlns:DD="http://esquemas.clouda.sat.gob.mx/archivos/DoctosDigitales/1" xmlns:DPIVA="http://esquemas.clouda.sat.gob.mx/archivos/DoctosDigitales/TipoDPIVA/1" xmlns:cat="http://esquemas.clouda.sat.gob.mx/archivos/DoctosDigitales/1/Catalogos" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://esquemas.clouda.sat.gob.mx/archivos/DoctosDigitales/1 http://esquemas.clouda.sat.gob.mx/archivos/DoctosDigitales/1/DoctoDigital.xsd http://esquemas.clouda.sat.gob.mx/archivos/DoctosDigitales/TipoDPIVA/1 http://esquemas.clouda.sat.gob.mx/archivos/DoctosDigitales/TipoDPIVA/1/DPIVA.xsd" Version="1.0" TipoDoctoDigital="0001" Cert="testattribute" NumCert="20001000000200001428" Firma="test attribute">
+   <DD:Emisor ERFC="AAA-010101-AAA" EDenORazSoc="test attribute" />
+   <DD:Receptor RRFC="AAA010101AAA" RCURP="HELA770210MVZRPL06" RApellPat="test attribute" RApellMat="test attribute" RNombre="test attribute" RDenORazSoc="test attribute" RCorreoE="test attribute" RNumTel="teát attribute" />
+   <DD:TipoDoctoDigital>
+      <DPIVA:DPIVA Version="1.0" Ejercicio="2015" TipoPerid="08" Periodo="42" DPIVA="0" TipoDec="1" FolioAnt="Eb3Jm" FechPresAnt="2007-01-01">
+         <DPIVA:Totales TotOperac="0" TotActPagTas15o16IVA="0" TotActPagTas15IVA="0" TotIVAPagNoAcrTas15o16="0" TotActPagTas10u11IVA="0" TotActPagTas10IVA="0" TotIVAPagNoAcrTas10u11="0" TotActPagImpBySTas15o16IVA="0" TotIVAPagNoAcrImpTas15o16="0" TotActPagImpBySTas10u11IVA="0" TotIVAPagNoAcrImpTas10u11="0" TotActPagImpBySNoPagIVA="0" TotDemActPagTas0IVA="0" TotActPagNoPagIVA="0" TotIVARetCont="0" TotIVADevDescyBonifComp="0" TotIVATraslContExcImpByS="0" TotIVAPagImpByS="0" />
+         
+      </DPIVA:DPIVA>
+   </DD:TipoDoctoDigital>
+</DD:DoctoDigital>

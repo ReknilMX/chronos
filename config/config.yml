@@ -1,0 +1,23 @@
+# configuracion de pruebas
+
+production:
+     base_url: https://negocios.buzonfiscal.com
+     rfc: AAA010101AAA
+     username: AAA010101AAA
+     password: admin
+ 
+development:
+     base_url: http://213.239.207.18:8080
+     rfc: AAA010101AAA
+     username: AAA010101AAA
+     password: admin
+ 
+test:
+     base_url: http://213.239.207.18:9080
+     rfc: AAA010101AAA
+     username: AAA010101AAA
+     password: admin
+     rfcw: AAA010101AAA
+     usernamew: WWW010101AAA
+     passwordw: admin
+ 

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PLZ:Polizas Anio="2016" Certificado="" Mes="06" NumOrden="ABC0012345/01" NumTramite="4772123456" RFC="AAA010101AAA" TipoSolicitud="AF" Version="1.1" noCertificado="20001000000200001428" xmlns:PLZ="www.sat.gob.mx/esquemas/ContabilidadE/1_1/PolizasPeriodo" xmlns:contelec_td="www.sat.gob.mx/esquemas/ContabilidadE/1_1/CatalogosParaEsqContE" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="www.sat.gob.mx/esquemas/ContabilidadE/1_1/PolizasPeriodo http://www.sat.gob.mx/esquemas/ContabilidadE/1_1/PolizasPeriodo/PolizasPeriodo_1_1.xsd">
+  <PLZ:Poliza Concepto="Pagos Efectuados - ORH100325SY1P" Fecha="2014-02-04" NumUnIdenPol="139629">
+    <PLZ:Transaccion Concepto="Pagos pendientes de aplicar" Debe="0" DesCta="IVA Acreditable" Haber="402.8" NumCta="11804000002A">
+      <PLZ:CompNal Moneda="MXN" MontoTotal="2139.62" RFC="ORH100325SY1"  UUID_CFDI="11c7a692-f2e8-4a72-b78a-b305445253cf"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="1267" CFD_CBB_Serie="HGS" Moneda="MXN" MontoTotal="2139.62" RFC="ORH100325SY1" />
+      <PLZ:CompExt Moneda="MXN" MontoTotal="217.12" NumFactExt="11c7a692f2e84a72b78ab305445253cfaaa1" TaxID="ORH100325SY1008SA" />
+      <PLZ:Cheque BanEmisExt="Banco Extranjero 006" BanEmisNal="128" Benef="IYASNET HERNANDEZ REYES" CtaOri="ABC123456789" Fecha="2014-02-10" Moneda="MXN" Monto="19999.12" Num="11" RFC="HERI801025LG8" />
+      <PLZ:Transferencia BancoDestExt="Banco origen Ext" BancoDestNal="006" BancoOriExt="Banco Origen Ext" BancoOriNal="006" Benef="ORGANIZACION RG HERMANOS, SA DE CV"  CtaOri="9382716273" Fecha="2014-02-10" Moneda="MXN" Monto="12762.51" RFC="ORH100325SY1" />
+      <PLZ:OtrMetodoPago Benef="ORGANIZACION RG HERMANOS, SA DE CV" Fecha="2014-02-10" MetPagoPol="01" Moneda="MXN" Monto="2139.62" RFC="ORH100325SY1" />
+    </PLZ:Transaccion>
+  </PLZ:Poliza>
+</PLZ:Polizas>

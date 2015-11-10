@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BCE:Balanza Anio="2015" Certificado="" FechaModBal="2015-02-28" Mes="03" RFC="AB&amp;010822TW7"  TipoEnvio="C" Version="1.1" noCertificado="20001000000200001428" xmlns:BCE="www.sat.gob.mx/esquemas/ContabilidadE/1_1/BalanzaComprobacion" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="www.sat.gob.mx/esquemas/ContabilidadE/1_1/BalanzaComprobacion http://www.sat.gob.mx/esquemas/ContabilidadE/1_1/BalanzaComprobacion/BalanzaComprobacion_1_1.xsd">
+  <BCE:Ctas Debe="0" Haber="0" NumCta="1000101" SaldoFin="1500" SaldoIni="1500.00"/>
+  <BCE:Ctas Debe="0" Haber="0" NumCta="1000102" SaldoFin="0" SaldoIni="0"/>
+  <BCE:Ctas Debe="0" Haber="0" NumCta="1000103" SaldoFin="0" SaldoIni="0"/>
+  <BCE:Ctas Debe="0" Haber="0" NumCta="10002" SaldoFin="9000.14" SaldoIni="9000.14"/>
+  <BCE:Ctas Debe="0" Haber="0" NumCta="1010101" SaldoFin="16120.9" SaldoIni="16120.9"/>
+  <BCE:Ctas Debe="0" Haber="0" NumCta="1010102" SaldoFin="0" SaldoIni="0"/>
+  <BCE:Ctas Debe="515168.78" Haber="647871.43" NumCta="1010103" SaldoFin="2439465.54" SaldoIni="2572168.19"/>
+  <BCE:Ctas Debe="2401.52" Haber="12401.86" NumCta="1010104" SaldoFin="-1631821.15" SaldoIni="-1621820.81"/>
+  <BCE:Ctas Debe="0" Haber="0" NumCta="1010105" SaldoFin="0" SaldoIni="0"/>
+  <BCE:Ctas Debe="0" Haber="0" NumCta="1010106" SaldoFin="0" SaldoIni="0"/>
+  <BCE:Ctas Debe="1439.08" Haber="1439.08" NumCta="1010107" SaldoFin="0" SaldoIni="0"/>
+</BCE:Balanza>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PLZ:Polizas Anio="2015" Certificado="" Mes="01" NumOrden="PRU0012345/02" NumTramite="1234567890" RFC="AAA010101AAA" TipoSolicitud="AF" Version="1.1" noCertificado="20001000000200001428" xmlns:PLZ="www.sat.gob.mx/esquemas/ContabilidadE/1_1/PolizasPeriodo" xmlns:contelec_td="www.sat.gob.mx/esquemas/ContabilidadE/1_1/CatalogosParaEsqContE" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="www.sat.gob.mx/esquemas/ContabilidadE/1_1/PolizasPeriodo http://www.sat.gob.mx/esquemas/ContabilidadE/1_1/PolizasPeriodo/PolizasPeriodo_1_1.xsd">
+  <PLZ:Poliza Concepto="A/R Invoices - AABH631101U83" Fecha="2014-09-10" NumUnIdenPol="180570">
+    <PLZ:Transaccion Concepto="Hugo Javier Alvarez Blum" Debe="754" DesCta="Compras" Haber="1" NumCta="AABH631101U83">
+      <PLZ:CompNal Moneda="MXN" MontoTotal="754" RFC="AABH631101U83" TipCamb="1" UUID_CFDI="e1a15bc8-de01-4101-8538-2a18ecb33b28"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="226" CFD_CBB_Serie="LPSA" Moneda="MXN" MontoTotal="754" RFC="AABH631101U83" TipCamb="1"/>
+    </PLZ:Transaccion>
+    <PLZ:Transaccion Concepto="IVA Trasladado 16%" Debe="1" DesCta="Compras" Haber="104" NumCta="21412000">
+      <PLZ:CompNal Moneda="MXN" MontoTotal="754" RFC="AABH631101U83" TipCamb="1" UUID_CFDI="e1a15bc8-de01-4101-8538-2a18ecb33b28"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="270" CFD_CBB_Serie="LPSA" Moneda="MXN" MontoTotal="754" RFC="AABH631101U83" TipCamb="1"/>
+    </PLZ:Transaccion>
+    <PLZ:Transaccion Concepto="Básico" Debe="1" DesCta="Compras" Haber="650" NumCta="41101000">
+      <PLZ:CompNal Moneda="MXN" MontoTotal="754" RFC="AABH631101U83" TipCamb="1" UUID_CFDI="e1a15bc8-de01-4101-8538-2a18ecb33b28"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="298" CFD_CBB_Serie="LPSA" Moneda="MXN" MontoTotal="754" RFC="AABH631101U83" TipCamb="1"/>
+    </PLZ:Transaccion>
+  </PLZ:Poliza>
+  <PLZ:Poliza Concepto="A/R Invoices - PERJ4901236H7" Fecha="2014-09-10" NumUnIdenPol="180555">
+    <PLZ:Transaccion Concepto="JAIME PEÑARRIETA RUIZ" Debe="1589.2" DesCta="Compras" Haber="1" NumCta="PERJ4901236H7">
+      <PLZ:CompNal Moneda="MXN" MontoTotal="1589.2" RFC="PERJ4901236H7" TipCamb="1" UUID_CFDI="d6a38a61-de01-4922-b78a-01f7613b946a"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="377" CFD_CBB_Serie="IIJS" Moneda="MXN" MontoTotal="1589.2" RFC="PERJ4901236H7" TipCamb="1"/>
+      <PLZ:CompExt Moneda="USD" MontoTotal="177" NumFactExt="d6a38a61de014922b78a01f7613b946aaaaa" TaxID="8UJ89PERJ4901236H7" TipCamb="13.5"/>
+    </PLZ:Transaccion>
+    <PLZ:Transaccion Concepto="IVA Trasladado 16%" Debe="1" DesCta="Compras" Haber="219.2" NumCta="21412000">
+      <PLZ:CompNal Moneda="MXN" MontoTotal="1589.2" RFC="PERJ4901236H7" TipCamb="1" UUID_CFDI="d6a38a61-de01-4922-b78a-01f7613b946a"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="390" CFD_CBB_Serie="IIJS" Moneda="MXN" MontoTotal="1589.2" RFC="PERJ4901236H7" TipCamb="1"/>
+    </PLZ:Transaccion>
+    <PLZ:Transaccion Concepto="Básico" Debe="1" DesCta="Compras" Haber="650" NumCta="41101000">
+      <PLZ:CompNal Moneda="MXN" MontoTotal="1589.2" RFC="PERJ4901236H7" TipCamb="1" UUID_CFDI="d6a38a61-de01-4922-b78a-01f7613b946a"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="391" CFD_CBB_Serie="IIJS" Moneda="MXN" MontoTotal="1589.2" RFC="PERJ4901236H7" TipCamb="1"/>
+      <PLZ:CompExt Moneda="USD" MontoTotal="45" NumFactExt="d6a38a61de014922b78a01f7613b946aaaaa" TaxID="8UJ89PERJ4901236H7" TipCamb="14.16"/>
+    </PLZ:Transaccion>
+    <PLZ:Transaccion Concepto="Transacciones adicionales" Debe="1" DesCta="Compras" Haber="720" NumCta="41105000">
+      <PLZ:CompNal Moneda="MXN" MontoTotal="1589.2" RFC="PERJ4901236H7" TipCamb="1" UUID_CFDI="d6a38a61-de01-4922-b78a-01f7613b946a"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="387" CFD_CBB_Serie="IIJS" Moneda="MXN" MontoTotal="1589.2" RFC="PERJ4901236H7" TipCamb="1"/>
+    </PLZ:Transaccion>
+  </PLZ:Poliza>
+  <PLZ:Poliza Concepto="Pagos Efectuados - ORH100325SY1P" Fecha="2014-02-04" NumUnIdenPol="139629">
+    <PLZ:Transaccion Concepto="IVA Acreditable Pagado" Debe="342.4" DesCta="Proveedores" Haber="1" NumCta="11601100">
+      <PLZ:CompNal Moneda="MXN" MontoTotal="2482.4" RFC="ORH100325SY1" TipCamb="1" UUID_CFDI="29ac1ee9-742c-49cb-8f05-01f7613b946a"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="452" CFD_CBB_Serie="HGS" Moneda="MXN" MontoTotal="2482.4" RFC="ORH100325SY1" TipCamb="1"/>
+    </PLZ:Transaccion>
+    <PLZ:Transaccion Concepto="IVA Acreditable" Debe="1" DesCta="Proveedores" Haber="342.4" NumCta="11601000">
+      <PLZ:CompNal Moneda="MXN" MontoTotal="2482.4" RFC="ORH100325SY1" TipCamb="1" UUID_CFDI="29ac1ee9-742c-49cb-8f05-01f7613b946a"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="2452" CFD_CBB_Serie="HGS" Moneda="MXN" MontoTotal="2482.4" RFC="ORH100325SY1" TipCamb="1"/>
+    </PLZ:Transaccion>
+    <PLZ:Transaccion Concepto="Pagos pendientes de aplicar" Debe="1" DesCta="Proveedores" Haber="12762.5" NumCta="11804000">
+      <PLZ:CompNal Moneda="MXN" MontoTotal="2139.62" RFC="ORH100325SY1" TipCamb="1" UUID_CFDI="11c7a692-f2e8-4a72-b78a-b305445253cf"/>
+      <PLZ:CompNal Moneda="MXN" MontoTotal="2920.3" RFC="ORH100325SY1" TipCamb="1" UUID_CFDI="0265ff8e-b020-4a83-8d3f-fa43d97658b8"/>
+      <PLZ:CompNal Moneda="MXN" MontoTotal="2746.3" RFC="ORH100325SY1" TipCamb="1" UUID_CFDI="d6a38a61-58a9-47d0-b094-1a2caed31a60"/>
+      <PLZ:CompNal Moneda="MXN" MontoTotal="2906.38" RFC="ORH100325SY1" TipCamb="1" UUID_CFDI="d22793e7-6777-4922-b01d-3c52912c6e62"/>
+      <PLZ:CompNal Moneda="MXN" MontoTotal="2482.4" RFC="ORH100325SY1" TipCamb="1" UUID_CFDI="29ac1ee9-742c-49cb-8f05-01f7613b946a"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="7728" CFD_CBB_Serie="HGS" Moneda="MXN" MontoTotal="2139.62" RFC="ORH100325SY1" TipCamb="1"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="812" CFD_CBB_Serie="HGS" Moneda="MXN" MontoTotal="2920.3" RFC="ORH100325SY1" TipCamb="1"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="8127" CFD_CBB_Serie="HGS" Moneda="MXN" MontoTotal="2746.3" RFC="ORH100325SY1" TipCamb="1"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="1271" CFD_CBB_Serie="HGS" Moneda="MXN" MontoTotal="2906.38" RFC="ORH100325SY1" TipCamb="1"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="3912" CFD_CBB_Serie="HGS" Moneda="MXN" MontoTotal="2482.4" RFC="ORH100325SY1" TipCamb="1"/>
+      <PLZ:CompExt Moneda="USD" MontoTotal="217" NumFactExt="11c7a692f2e84a72b78ab305445253cfaaaa" TaxID="ORH100325SY1008SA" TipCamb="13.15"/>
+      <PLZ:CompExt Moneda="USD" MontoTotal="189" NumFactExt="0265ff8eb0204a838d3ffa43d97658b8aaaa" TaxID="ORH100325SY1008SA" TipCamb="13.35"/>
+      <PLZ:Transferencia BancoDestNal="006" BancoOriNal="006" Benef="Comercializadora Nuñez" CtaDest="927368271" CtaOri="9382716273" Fecha="2014-02-10" Moneda="MXN" Monto="12762.5" RFC="PEMÑ880216RW3" TipCamb="1"/>
+      <PLZ:Transferencia BancoDestNal="006" BancoOriNal="006" Benef="Prueba Sociedad de Abogados &amp; Logistica del Norte" CtaDest="927368271" CtaOri="9382716273" Fecha="2014-02-10" Moneda="MXN" Monto="12762.5" RFC="PEM&amp;880216RW3" TipCamb="1"/>
+    </PLZ:Transaccion>
+    <PLZ:Transaccion Concepto="IVA Acreditable Pagado" Debe="295.12" DesCta="Proveedores" Haber="1" NumCta="11601100">
+      <PLZ:CompNal Moneda="MXN" MontoTotal="2139.62" RFC="ORH100325SY1" TipCamb="1" UUID_CFDI="11c7a692-f2e8-4a72-b78a-b305445253cf"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="881" CFD_CBB_Serie="HGS" Moneda="MXN" MontoTotal="2139.62" RFC="ORH100325SY1" TipCamb="1"/>
+    </PLZ:Transaccion>
+    <PLZ:Transaccion Concepto="IVA Acreditable" Debe="1" DesCta="Proveedores" Haber="295.12" NumCta="11601000">
+      <PLZ:CompNal Moneda="MXN" MontoTotal="2139.62" RFC="ORH100325SY1" TipCamb="1" UUID_CFDI="11c7a692-f2e8-4a72-b78a-b305445253cf"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="726" CFD_CBB_Serie="HGS" Moneda="MXN" MontoTotal="2139.62" RFC="ORH100325SY1" TipCamb="1"/>
+    </PLZ:Transaccion>
+    <PLZ:Transaccion Concepto="IVA Acreditable Pagado" Debe="402.8" DesCta="Proveedores" Haber="1" NumCta="11601100">
+      <PLZ:CompNal Moneda="MXN" MontoTotal="2920.3" RFC="ORH100325SY1" TipCamb="1" UUID_CFDI="0265ff8e-b020-4a83-8d3f-fa43d97658b8"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="763" CFD_CBB_Serie="HGS" Moneda="MXN" MontoTotal="2920.3" RFC="ORH100325SY1" TipCamb="1"/>
+    </PLZ:Transaccion>
+    <PLZ:Transaccion Concepto="IVA Acreditable" Debe="1" DesCta="Proveedores" Haber="402.8" NumCta="11601000">
+      <PLZ:CompNal Moneda="MXN" MontoTotal="2920.3" RFC="ORH100325SY1" TipCamb="1" UUID_CFDI="0265ff8e-b020-4a83-8d3f-fa43d97658b8"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="612" CFD_CBB_Serie="HGS" Moneda="MXN" MontoTotal="2920.3" RFC="ORH100325SY1" TipCamb="1"/>
+    </PLZ:Transaccion>
+    <PLZ:Transaccion Concepto="IVA Acreditable Pagado" Debe="378.8" DesCta="Proveedores" Haber="1" NumCta="11601100">
+      <PLZ:CompNal Moneda="MXN" MontoTotal="2746.3" RFC="ORH100325SY1" TipCamb="1" UUID_CFDI="d6a38a61-58a9-47d0-b094-1a2caed31a60"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="662" CFD_CBB_Serie="HGS" Moneda="MXN" MontoTotal="2746.3" RFC="ORH100325SY1" TipCamb="1"/>
+    </PLZ:Transaccion>
+    <PLZ:Transaccion Concepto="IVA Acreditable" Debe="1" DesCta="Proveedores" Haber="378.8" NumCta="11601000">
+      <PLZ:CompNal Moneda="MXN" MontoTotal="2746.3" RFC="ORH100325SY1" TipCamb="1" UUID_CFDI="d6a38a61-58a9-47d0-b094-1a2caed31a60"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="771" CFD_CBB_Serie="HGS" Moneda="MXN" MontoTotal="2746.3" RFC="ORH100325SY1" TipCamb="1"/>
+      <PLZ:OtrMetodoPago Benef="ORGANIZACION RG HERMANOS, SA DE CV" Fecha="2014-02-10" MetPagoPol="10" Moneda="MXN" Monto="2139.62" RFC="ORH100325SY1" TipCamb="1"/>
+    </PLZ:Transaccion>
+    <PLZ:Transaccion Concepto="IVA Acreditable Pagado" Debe="400.88" DesCta="Proveedores" Haber="1" NumCta="11601100">
+      <PLZ:CompNal Moneda="MXN" MontoTotal="2906.38" RFC="ORH100325SY1" TipCamb="1" UUID_CFDI="d22793e7-6777-4922-b01d-3c52912c6e62"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="9811" CFD_CBB_Serie="HGS" Moneda="MXN" MontoTotal="2906.38" RFC="ORH100325SY1" TipCamb="1"/>
+    </PLZ:Transaccion>
+    <PLZ:Transaccion Concepto="ORGANIZACION RG HERMANOS, SA DE CV" Debe="12762.5" DesCta="Proveedores" Haber="1" NumCta="ORH100325SY1P">
+      <PLZ:CompNal Moneda="MXN" MontoTotal="2139.62" RFC="ORH100325SY1" TipCamb="1" UUID_CFDI="11c7a692-f2e8-4a72-b78a-b305445253cf"/>
+      <PLZ:CompNal Moneda="MXN" MontoTotal="2920.3" RFC="ORH100325SY1" TipCamb="1" UUID_CFDI="0265ff8e-b020-4a83-8d3f-fa43d97658b8"/>
+      <PLZ:CompNal Moneda="MXN" MontoTotal="2746.3" RFC="ORH100325SY1" TipCamb="1" UUID_CFDI="d6a38a61-58a9-47d0-b094-1a2caed31a60"/>
+      <PLZ:CompNal Moneda="MXN" MontoTotal="2906.38" RFC="ORH100325SY1" TipCamb="1" UUID_CFDI="d22793e7-6777-4922-b01d-3c52912c6e62"/>
+      <PLZ:CompNal Moneda="MXN" MontoTotal="2482.4" RFC="ORH100325SY1" TipCamb="1" UUID_CFDI="29ac1ee9-742c-49cb-8f05-01f7613b946a"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="1267" CFD_CBB_Serie="HGS" Moneda="MXN" MontoTotal="2139.62" RFC="ORH100325SY1" TipCamb="1"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="654" CFD_CBB_Serie="HGS" Moneda="MXN" MontoTotal="2920.3" RFC="ORH100325SY1" TipCamb="1"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="45" CFD_CBB_Serie="HGS" Moneda="MXN" MontoTotal="2746.3" RFC="ORH100325SY1" TipCamb="1"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="1212" CFD_CBB_Serie="HGS" Moneda="MXN" MontoTotal="2906.38" RFC="ORH100325SY1" TipCamb="1"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="985" CFD_CBB_Serie="HGS" Moneda="MXN" MontoTotal="2482.4" RFC="ORH100325SY1" TipCamb="1"/>
+    </PLZ:Transaccion>
+    <PLZ:Transaccion Concepto="IVA Acreditable" Debe="1" DesCta="Proveedores" Haber="400.88" NumCta="11601000">
+      <PLZ:CompNal Moneda="MXN" MontoTotal="2906.38" RFC="ORH100325SY1" TipCamb="1" UUID_CFDI="d22793e7-6777-4922-b01d-3c52912c6e62"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="787" CFD_CBB_Serie="HGS" Moneda="MXN" MontoTotal="2906.38" RFC="ORH100325SY1" TipCamb="1"/>
+    </PLZ:Transaccion>
+  </PLZ:Poliza>
+  <PLZ:Poliza Concepto="Fact. Proveedores - ORH100325SY1P" Fecha="2014-08-04" NumUnIdenPol="178952">
+    <PLZ:Transaccion Concepto="ORGANIZACION RG HERMANOS, SA DE CV" Debe="1" DesCta="Proveedores" Haber="661.2" NumCta="ORH100325SY1P">
+      <PLZ:CompNal Moneda="MXN" MontoTotal="661.2" RFC="ORH100325SY1" TipCamb="1" UUID_CFDI="d6a38a61-58a9-47d0-b094-1a2caed31a60"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="191" CFD_CBB_Serie="KJSA" Moneda="MXN" MontoTotal="661.2" RFC="ORH100325SY1" TipCamb="1"/>
+    </PLZ:Transaccion>
+    <PLZ:Transaccion Concepto="IVA Acreditable" Debe="91.2" DesCta="Proveedores" Haber="1" NumCta="11601000">
+      <PLZ:CompNal Moneda="MXN" MontoTotal="661.2" RFC="ORH100325SY1" TipCamb="1" UUID_CFDI="d6a38a61-58a9-47d0-b094-1a2caed31a60"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="192" CFD_CBB_Serie="KJSA" Moneda="MXN" MontoTotal="661.2" RFC="ORH100325SY1" TipCamb="1"/>
+    </PLZ:Transaccion>
+    <PLZ:Transaccion Concepto="Servicios y Artículos de Limpieza" Debe="570" DesCta="Proveedores" Haber="1" NumCta="61129000">
+      <PLZ:CompNal Moneda="MXN" MontoTotal="661.2" RFC="ORH100325SY1" TipCamb="1" UUID_CFDI="d6a38a61-58a9-47d0-b094-1a2caed31a60"/>
+      <PLZ:CompNalOtr CFD_CBB_NumFol="193" CFD_CBB_Serie="KJSA" Moneda="MXN" MontoTotal="661.2" RFC="ORH100325SY1" TipCamb="1"/>
+    </PLZ:Transaccion>
+  </PLZ:Poliza>
+</PLZ:Polizas>
