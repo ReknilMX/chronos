@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:SelloD="http://esquemas.clouda.sat.gob.mx/archivos/DoctosDigitales/1/SelloDigital" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:cat="http://esquemas.clouda.sat.gob.mx/archivos/DoctosDigitales/1/Catalogos" targetNamespace="http://esquemas.clouda.sat.gob.mx/archivos/DoctosDigitales/1/SelloDigital" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:import namespace="http://esquemas.clouda.sat.gob.mx/archivos/DoctosDigitales/1/Catalogos" schemaLocation="http://esquemas.clouda.sat.gob.mx/archivos/DoctosDigitales/1/Catalogos/CatDoctoDigital.xsd"/>
+	<xs:element name="SelloDigital">
+		<xs:annotation>
+			<xs:documentation>Tipo de documento requerido para el Sellado Digital que le da validez a la información.</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:attribute name="Version" type="xs:string" use="required" fixed="1.0">
+				<xs:annotation>
+					<xs:documentation>Atributo requerido para expresar la Versión del estándar del sello digital.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="ERFC" type="cat:t_RFC" use="required">
+				<xs:annotation>
+					<xs:documentation>Atributo requerido para expresar el RFC del contribuyente que envía los datos, sin guiones o espacios.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="NombreRazonSocial" use="optional">
+				<xs:annotation>
+					<xs:documentation>Atributo opcional para expresar el nombre, denominación o razón social del contribuyente.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="1"/>
+						<xs:maxLength value="254"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="Ejercicio" use="optional">
+				<xs:annotation>
+					<xs:documentation>Atributo opcional para expresar el Ejercicio Fiscal del documento digital</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:integer">
+						<xs:minInclusive value="2015"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="Periodo" type="cat:c_Periodo" use="optional">
+				<xs:annotation>
+					<xs:documentation>Atributo opcional que indica el periodo del que se realiza el documento digital, de acuerdo al tipo de periodicidad y al catálogo publicado en la página del SAT.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="FechaHorPres" use="required">
+				<xs:annotation>
+					<xs:documentation>Atributo requerido para expresar la fecha y hora de la presentación del documento digital. Se expresa en la forma aaaa-mm-ddThh:mm:ssTZD-Zona Horaria, de acuerdo con la especificación ISO 8601. Debe corresponder con la zona horaria del contribuyente que envía los datos.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:dateTime">
+						<xs:minInclusive value="2015-01-01T00:00:00-06:00" fixed="false"/>
+						<xs:whiteSpace value="collapse"/>
+						<xs:pattern value="-?([1-9][0-9]{3,}|0[0-9]{3})-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])T(([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9](\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="NumOperacion" use="required">
+				<xs:annotation>
+					<xs:documentation>Atributo requerido para expresar el Número de Operación, conformado por 3 posiciones de la clave del receptor – 2 posiciones del año de recepción y 9 posiciones del consecutivo anual en formato XXX-15-999999999.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:length value="16"/>
+						<xs:pattern value="[0-9]{3}-[0-9]{2}-[0-9]{9}"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="MedioPres" type="cat:c_MedPresDoctoDigital" use="optional">
+				<xs:annotation>
+					<xs:documentation>Atributo opcional para expresar el Medio de Presentación del documento digital, de acuerdo al catálogo publicado en la página de internet del SAT.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="NombreArch" use="required">
+				<xs:annotation>
+					<xs:documentation>Atributo requerido para expresar el nombre del archivo XML, en formato AAAA990901AA10001N01011500.xml. Compuesto por 12 ó 13 posiciones del RFC del contribuyente, 4 posiciones clave del documento digital según el catálogo de periodo publicado en la página de internet del SAT , 1 posición Tipo de Declaración (N=Normal C=Complementaria), 2 posiciones periodo inicial, 2 posiciones periodo final, 2 posiciones ejercicio fiscal, 2 posiciones para diferenciador de archivo, 4 posiciones extensión del archivo. En caso de que no aplique el Tipo de Declaración, periodo inicial, periodo final o ejercicio fiscal, colocar ceros.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:minLength value="29"/>
+						<xs:maxLength value="30"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="FechaHorSelloD" use="required">
+				<xs:annotation>
+					<xs:documentation>Atributo requerido para expresar la fecha y hora de la generación y emisión del acuse del sello digital del SAT o del Receptor. Se expresa en la forma aaaa-mm-ddThh:mm:ssTZD-Zona Horaria, de acuerdo con la especificación ISO 8601. La Zona horaria debe corresponder con la zona horaria del contribuyente que envía los datos.</xs:documentation>
+				</xs:annotation>
+				<xs:simpleType>
+					<xs:restriction base="xs:dateTime">
+						<xs:minInclusive value="2015-01-01T00:00:00-06:00"/>
+						<xs:whiteSpace value="collapse"/>
+						<xs:pattern value="-?([1-9][0-9]{3,}|0[0-9]{3})-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])T(([01][0-9]|2[0-3]):[0-5][0-9]:[0-5][0-9](\+|-)((0[0-9]|1[0-3]):[0-5][0-9]|14:00))"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+			<xs:attribute name="Estatus" type="cat:c_EstatusDoctoDigital" use="required">
+				<xs:annotation>
+					<xs:documentation>Atributo requerido para expresar el estatus del documento digital de acuerdo al catálogo correspondiente publicado en la página del SAT.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="Firma" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>Atributo opcional para contener la firma digital del emisor o contribuyente del documento digital. La firma deberá ser expresada como una cadena de texto en formato base 64.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="NoCertificado" type="xs:string" use="required">
+				<xs:annotation>
+					<xs:documentation>Atributo requerido para expresar el número de serie del certificado del SAT o del Receptor  con el cual se generó el Sello Digital</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="SelloD" type="xs:string" use="required">
+				<xs:annotation>
+					<xs:documentation>Atributo requerido para contener el Sello Digital. El sello deberá ser expresado como una cadena de texto en formato Base 64.</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

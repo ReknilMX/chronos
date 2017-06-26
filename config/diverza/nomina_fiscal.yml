@@ -1,0 +1,50 @@
+# configuracion de pruebas Nomina Fiscal
+
+production:
+     sauce: false
+     base_url: https://nomina.diverza.com
+     usernameAD: 
+     passwordAD: 
+     usernameOP: 
+     passwordOP: 
+     usernameEM: 
+     passwordEM: 
+     usernameHR: 
+     passwordHR: 
+     usernameCF: 
+     passwordCF: 
+     usernameTF: 
+     passwordTF: 
+ 
+development:
+     sauce: false
+     base_url: 
+     usernameAD: 
+     passwordAD: 
+     usernameOP: 
+     passwordOP: 
+     usernameEM: 
+     passwordEM: 
+     usernameHR: 
+     passwordHR: 
+     usernameCF: 
+     passwordCF: 
+     usernameTF: 
+     passwordTF: 
+ 
+test:
+     sauce: false
+     base_url: "http://192.237.130.63:8181"
+     usernameAD: "nfdiverza"
+     passwordAD: "Ri801325"
+     usernameOP: "admin"
+     passwordOP: "password"
+     usernameEM: "test010101n01"
+     passwordEM: "Diverza123*"
+     usernameHR: "hradmin_nomina"
+     passwordHR: "hradmin2014"
+     usernameCF: "conector_nomina"
+     passwordCF: "conector2014"
+     usernameTF: "timbre_nomina"
+     passwordTF: "timbre2014"
+ 

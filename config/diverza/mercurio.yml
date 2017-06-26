@@ -1,0 +1,11 @@
+# configuracion de pruebas Mercurio
+
+production:
+     mercurioDIR: 
+ 
+development:
+     mercurioDIR: 
+ 
+test:
+     mercurioDIR: "/Users/marioalfredogutierrezchio/Diverza/Projects/mercurio/"
+ 

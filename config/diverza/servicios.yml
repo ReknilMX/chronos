@@ -1,0 +1,29 @@
+# configuracion de pruebas Contabilidad
+
+production:
+     sauce: false
+     base_url: "https://serviciosdemo.diverza.com"
+     clientid1: "94135"
+     clientrfc1: "MAG041126GT8"
+     clientcert1: "20001000000300022755"
+     clienttoken1: "$2b$12$/BwwQmMF89ek.BWXD7GjF.EI55UjuvXB9.hXm91cVD/qNrVLczawG"
+     clientemail1: "mario.gutierrez@diverza.com"
+ 
+development:
+     sauce: false
+     base_url: "https://serviciosdemo.diverza.com"
+     clientid1: "94135"
+     clientrfc1: "MAG041126GT8"
+     clientcert1: "20001000000300022755"
+     clienttoken1: "$2b$12$/BwwQmMF89ek.BWXD7GjF.EI55UjuvXB9.hXm91cVD/qNrVLczawG"
+     clientemail1: "mario.gutierrez@diverza.com"
+ 
+test:
+     sauce: false
+     base_url: "https://serviciosqa.diverza.com"
+     clientid1: "94135"
+     clientrfc1: "MAG041126GT8"
+     clientcert1: "20001000000300022755"
+     clienttoken1: "$2b$12$/BwwQmMF89ek.BWXD7GjF.EI55UjuvXB9.hXm91cVD/qNrVLczawG"
+     clientemail1: "mario.gutierrez@diverza.com"
+ 

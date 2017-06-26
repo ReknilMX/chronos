@@ -1,0 +1,37 @@
+# configuracion de pruebas Conector Fiscal
+
+production:
+     sauce: false
+     base_url: https://emision.conectorfiscal.mx
+     rfcAD: AAA010101AAA
+     usernameAD: AAA010101AAA
+     passwordAD: "Diverza123@"
+     rfcOP: AAA010101AAA
+     usernameOP: GUCM870526GP8
+     passwordOP: "Diverza1234@"
+     IVA: "Impuesto Federal Trasladado IVA_16.0_2c909816463e55c501463e9f77400260"
+ 
+development:
+     sauce: false
+     base_url: 
+     rfcAD: 
+     usernameAD: 
+     passwordAD: 
+     rfcOP: 
+     usernameOP: 
+     passwordOP: 
+     IVA:      
+ 
+test:
+     sauce: false
+     base_url: https://q-bree.diverza.com
+     #rfcAD: "VOC990129I26"
+     #rfcAD: "VOC990129AAA"
+     rfcAD: "IIIT181004AV6"
+     usernameAD: "mario.gutierrez@diverza.com"
+     passwordAD: "QAadministra2*"
+     rfcOP: AAA010101AAA
+     usernameOP: GUCM870526GP8
+     passwordOP: "Diverza1234@"
+     IVA: "Impuesto Federal Trasladado IVA_16.0_*"   
+ 

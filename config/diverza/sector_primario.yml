@@ -1,0 +1,41 @@
+# configuracion de pruebas Sector Primario
+
+production:
+     sauce: false
+     base_url: https://primario.buzonfiscal.com
+     rfcSP: 
+     usernameSP: 
+     passwordSP: 
+     rfcAR: 
+     usernameAR: 
+     passwordAR: 
+     rfcRE: 
+     usernameRE: 
+     passwordRE: 
+ 
+development:
+     sauce: false
+     base_url: 
+     rfcSP: 
+     usernameSP: 
+     passwordSP: 
+     rfcAR: 
+     usernameAR: 
+     passwordAR: 
+     rfcRE: 
+     usernameRE: 
+     passwordRE: 
+ 
+test:
+     sauce: false
+     base_url: "https://q-grey.diverza.com/"
+     rfcSP: "VAHE8209266A1"
+     usernameSP: "mario.gutierrez@diverza.com"
+     passwordSP: "QAadministra2*"
+     rfcAR: "PRQA010101AAA"
+     usernameAR: "gutierrez_arrendador"
+     passwordAR: "QAadministra2*"
+     rfcRE: "PQA010101BBB" 
+     usernameRE: "gutierrez_reciclaje"
+     passwordRE: "QAadministra2*"
+ 

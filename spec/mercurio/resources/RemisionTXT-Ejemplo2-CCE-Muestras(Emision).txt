@@ -1,0 +1,112 @@
+HOJA
+########################################################################
+
+[Datos Generales]
+fecha|10-06-2016 11:35:36
+serie|A
+folio|120001
+asignaFolio|FALSE
+
+[Datos del Emisor]
+emRegimen|REGIMEN GENERAL DE LEY PERSONA MORAL
+emRfc|AAA010101AAA
+emNombre|EMISOR PRUEBA
+emCalle|Calle A
+emNoExterior|731
+emNoInterior|
+emColonia|0001
+emLocalidad|
+emReferencia|
+emMunicipio|039
+emEstado|NLE
+emPais|MEX
+emCodigoPostal|64000
+
+[Datos del Receptor]
+reRfc|XEXX010101000
+reNombre|RECEPTOR PRUEBA
+reCalle|Park. Ave.
+reNoExterior|1640
+reReferencia|entre 1 calle y la calle 2
+reEstado|NY
+rePais|USA
+reCodigoPostal|92309
+reNoCliente|000000141007
+reEmail|mail@mail.com
+
+
+[Datos de Conceptos]
+cantidad|180.000
+unidad|Kilos
+numIdentificacion|76515001191
+descripcion|CHOCOLATE CREME CUP CAKES 360G /12.7OZ SL 
+valorUnitario|10.93
+importe|1967.40
+
+
+[Datos Complemento Comercio Exterior]
+cceVersion|1.0
+cceTipoOperacion|2
+cceClaveDePedimento|A1
+cceCertificadoOrigen|0
+cceNumCertificadoOrigen|
+cceNumExportadorConfiable|34555888
+cceIncoterm|FCA
+cceSubdivision|0
+cceObservaciones|Exportación de muestras, la operación no representa venta
+cceTipoCambioUSD|18.5084
+cceTotalUSD|106.29
+cceEmCurp|
+cceReCurp|
+cceReNumRegIdTrib|752491202
+cceDesNumRegIdTrib|752491265
+cceDesRfc|
+cceDesCurp|
+cceDesNombre|Destino final
+cceDesDomCalle|Park. Ave.
+cceDesDomNumExt|
+cceDesDomNumInt|
+cceDesDomColonia|
+cceDesDomLocalidad|
+cceDesDomReferencia|
+cceDesDomMunicipio|
+cceDesDomEstado|NY
+cceDesDomPais|USA
+cceDesDomCP|92309
+
+cceMerNoIdentificacion|76515001191
+cceMerFraccionArancelaria|98010001
+cceMerCantidadAduana|180.000
+cceMerUnidadAduana|1
+cceMerValorUnitarioAduana|10.93
+cceMerValorDolares|106.29
+
+cceMerDescMarca|
+cceMerDescModelo|
+cceMerDescSubModelo|
+cceMerDescNumeroSerie|
+
+[Datos Complementarios del Comprobante a nivel global]
+descuentoMonto|1967.40
+descuentoMotivo|Descuento
+subtotalConceptos|1967.40
+totalConceptos|1967.40
+pagoForma|PAGO EN UNA SOLA EXHIBICION
+pagoCondiciones|90 DIAS
+pagoMetodo|TRANSFERENCIA ELECTRONICA DE FONDOS
+numCtaPago|6220
+lugarExpedicion|MONTERREY
+
+[Datos Comerciales del Comprobante a nivel global]
+refID|20160710002
+tipoDocumento|Factura
+ordenCompra|80909099
+nombreMoneda|USD
+tipoCambio|18.5084
+
+[Datos Totales]
+montoTotal|0.00
+montoTotalTexto|*Zero Dollars 00/100 USD
+
+[Otros]
+LeyendaEspecial1|Texto adicional

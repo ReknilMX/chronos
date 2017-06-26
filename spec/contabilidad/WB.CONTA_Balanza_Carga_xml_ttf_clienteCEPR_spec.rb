@@ -189,7 +189,7 @@ describe "WB.CONTA - C7776 - Validar el campo Fecha de modificación de balanza 
     @driver.file_field(:id => 'balance_excel_file').set(Rails.root.join "spec/contabilidad/resources/balanza/balanza_C7776.xml")
     @driver.element(:name => "commit").click
     @driver.div(:class => 'alert alert-danger text-left').wait_until_present
-    assert @driver.element(:id => "flash-alert").text.should == "Error en línea 2: El campo FechaModBal el formato no es válido"
+    assert @driver.element(:id => "flash-alert").text.should == "Error en línea 2: El campo FechaModBal es inválido, el formato permitido es yyyy-mm-dd"
   end
 
 end
@@ -205,7 +205,7 @@ describe "WB.CONTA - C7777 - Validar el campo Fecha de Modificación de Balanza 
     @driver.file_field(:id => 'balance_excel_file').set(Rails.root.join "spec/contabilidad/resources/balanza/balanza_C7777.xml")
     @driver.element(:name => "commit").click
     @driver.div(:class => 'alert alert-danger text-left').wait_until_present
-    assert @driver.element(:id => "flash-alert").text.should == "Error en línea 2: El campo FechaModBal el formato no es válido"
+    assert @driver.element(:id => "flash-alert").text.should == "Error en línea 2: El campo FechaModBal es inválido, el formato permitido es yyyy-mm-dd"
   end
 
 end

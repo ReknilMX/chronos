@@ -1,0 +1,23 @@
+# configuracion de pruebas Timbre Fiscal
+
+production:
+     sauce: false
+     base_url: https://serviciostfz.buzonfiscal.com
+     rfcAD: AAA010101AAA
+     usernameAD: AAA010101AAA
+     passwordAD: admin
+ 
+development:
+     sauce: false
+     base_url: 
+     rfcAD: 
+     usernameAD: 
+     passwordAD: 
+ 
+test:
+     sauce: false
+     base_url: http://213.239.207.18:8180
+     rfcAD: AAA010101AAA
+     usernameAD: AAA010101AAA
+     passwordAD: admin
+ 

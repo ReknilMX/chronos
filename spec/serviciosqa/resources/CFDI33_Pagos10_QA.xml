@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pago10="http://www.sat.gob.mx/Pagos" xmlns:catCFDI="http://www.sat.gob.mx/sitio_internet/cfd/catalogos" xsi:schemaLocation="http://www.sat.gob.mx/sitio_internet/cfd/Pagos/Pagos10.xsd" Version="3.3" Serie="A" Folio= "123"  Fecha="2017-04-24T12:00:00" Sello="" NoCertificado="20001000000300022755" Certificado="" SubTotal="0" Moneda="XXX"  Total="0" TipoDeComprobante="P" LugarExpedicion="64000">
+	<cfdi:CfdiRelacionados TipoRelacion="04">
+        <cfdi:CfdiRelacionado UUID="b6acb553-4ee4-4925-b812-e0dcd5a40cf5"/>
+    </cfdi:CfdiRelacionados>
+   	<cfdi:Emisor Rfc="MAG041126GT8" Nombre="PREPARATORIA MIGUEL HIDALGO SA" RegimenFiscal="601" />
+	<cfdi:Receptor Rfc="AAAA200303TFA" Nombre="Público en General" UsoCFDI="P01" />
+   <cfdi:Conceptos>
+      <cfdi:Concepto ClaveProdServ="84111506"  Cantidad="1" ClaveUnidad="ACT"  Descripcion="Pago" ValorUnitario="0" Importe="0" />
+   </cfdi:Conceptos>
+   <cfdi:Complemento>
+		<pago10:Pagos Version="1.0">
+		    <pago10:Pago FechaPago="2017-04-24T12:00:00" FormaDePagoP="01" MonedaP="MXN" Monto="85240.00"
+		         NumOperacion="01">
+		        <pago10:DoctoRelacionado IdDocumento="30be57dd-32c2-4cde-9141-2a186c9433ea" Serie="A" Folio="123" MonedaDR="MXN" MetodoDePagoDR="PUE" />
+		    </pago10:Pago>
+		</pago10:Pagos>
+   </cfdi:Complemento>
+</cfdi:Comprobante>

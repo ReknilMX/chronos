@@ -1,0 +1,41 @@
+# configuracion de pruebas Contabilidad
+
+production:
+     sauce: false
+     base_url: https://negocios3.buzonfiscal.com
+     rfcAD: AAA010101AAA
+     usernameAD: AAA010101AAA
+     passwordAD: "Diverza123@"
+     rfcOP: AAA010101AAA
+     usernameOP: GUCM870526GP8
+     passwordOP: "Diverza123@"
+     IVA: "Impuesto Federal Trasladado IVA_16.0_2c9ce2043d3e32ea013d4300e3dc3a57"  
+ 
+development:
+     sauce: false
+     base_url: 
+     rfcAD: 
+     usernameAD: 
+     passwordAD: 
+     rfcOP: 
+     usernameOP: 
+     passwordOP: 
+     IVA: 
+ 
+test:
+     sauce: false
+     base_url: https://q-amber.diverza.com
+     rfcAD: SSO010101SSS
+     usernameAD: "gutierrez"
+     passwordAD: "QAadministra2*"
+     rfcOP: AAA010101AAA
+     usernameOP: GUCM870526GP8
+     passwordOP: "Diverza1234@"
+     rfcGR: PER010101PER
+     usernameGR: PER010101PER
+     passwordGR: "admin"
+     #rfcGR: AAD990814ABC
+     #usernameGR: "mario.gutierrez@diverza.com"
+     #passwordGR: "QAadministra2."
+     IVA: "Impuesto Federal Trasladado IVA_16.0_*"
+ 

@@ -6,7 +6,7 @@
       <PLZ:CompNalOtr CFD_CBB_NumFol="226" CFD_CBB_Serie="LPSA" Moneda="MXN" MontoTotal="754" RFC="AABH631101U83"/>
       <PLZ:CompExt Moneda="USD" MontoTotal="177" NumFactExt="d6a38a61de014922b78a01f7613b946aaaaa" TaxID="8UJ89PERJ4901236H7" TipCamb="13.5"/>
       <PLZ:Cheque BanEmisExt="Banco Extranjero 006" BanEmisNal="128" Benef="IYASNET HERNANDEZ REYES" CtaOri="ABC123456789" Fecha="2014-02-10" Moneda="MXN" Monto="19999.12" Num="11" RFC="HERI801025LG8"/>
-      <PLZ:Transferencia BancoDestNal="999" BancoOriNal="006" Benef="Comercializadora Nuñez" CtaDest="927368271" CtaOri="9382716273" Fecha="2014-02-10" Moneda="MXN" Monto="12762.5" RFC="PEMÑ880216RW3"/>
+      <PLZ:Transferencia BancoDestNal="998" BancoOriNal="006" Benef="Comercializadora Nuñez" CtaDest="927368271" CtaOri="9382716273" Fecha="2014-02-10" Moneda="MXN" Monto="12762.5" RFC="PEMÑ880216RW3"/>
       <PLZ:OtrMetodoPago Benef="ORGANIZACION RG HERMANOS, SA DE CV" Fecha="2014-02-10" MetPagoPol="01" Moneda="MXN" Monto="2139.62" RFC="ORH100325SY1"/>
     </PLZ:Transaccion>
   </PLZ:Poliza>

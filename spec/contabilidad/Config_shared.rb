@@ -20,7 +20,7 @@ RSpec.shared_context "config", :a => :b do
 
   def save_screenshot(app = '', status = 'failure')
     path = Rails.root.join('screenshot/')
-    file_name = path.join("#{app}-#{status}-#{Time.now.strftime('%d_%m_%Y_%H_%M_%S')}.png")
+    file_name = path.join("#{app}-#{status}-#{Time.now.strftime('%Y_%m_%d_%H_%M_%S')}.png")
     @driver.screenshot.save file_name
   end
   

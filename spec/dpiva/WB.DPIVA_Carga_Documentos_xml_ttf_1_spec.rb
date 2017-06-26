@@ -17,7 +17,7 @@ describe "WB.DPIVA - C11239 - DPIVA - Validar que si el documento digital no est
     @driver.link(:text => "Enviar al SAT").click
     @driver.link(:text => "Aceptar").click
     @driver.element(:id => 'flash-alert').wait_until_present
-    assert @driver.element(:id => "flash-alert").text.should == "Ocurrió un error en el proceso de envío, intenta más tarde."
+    assert @driver.element(:id => "flash-alert").text.should == "El documento no cumple con el contenido definido por el SAT"
   end
 
 end

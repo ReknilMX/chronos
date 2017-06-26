@@ -34,14 +34,14 @@ development:
  
 test:
      sauce: false
-     base_url: "http://localhost:8080"
+     base_url: "http://qapr01.diverza.com/"
      usernameCLICE: "gutierrez"
      passwordCLICE: "admin"
      usernameCONCE: "hernandez"
      passwordCONCE: "admin"
      usernameFINCE: "hernandez1"
      passwordFINCE: "admin"
-     usernameCLICEPR: "squallmagc"
+     usernameCLICEPR: "gutierrez"
      passwordCLICEPR: "admin"
      usernameCONCEPR: "squallmagc1"
      passwordCONCEPR: "admin"
